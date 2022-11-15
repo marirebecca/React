@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@material-ui/lab": "^4.0.0-alpha.61",
     "@mui/icons-material": "5.0.5"
   }
 }

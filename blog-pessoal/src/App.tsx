@@ -27,7 +27,7 @@ function App() {
 
         <Route path="/temas" element={<ListaTema />} />
 
-        <Route path="/posts" element={<ListaPostagem />} />
+        <Route path="/postagens" element={<ListaPostagem />} />
 
 
       </Routes>
