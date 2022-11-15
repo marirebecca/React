@@ -25,11 +25,22 @@ function Login() {
                         </Box>
 
                     </form>
+                    <Box display='flex' justifyContent='center' marginTop={2}>
+                        <Box marginRight={1}>
+                            <Typography variant='subtitle1' gutterBottom align='center'>Não tem uma conta?</Typography>
+                        </Box>
+                        <Typography variant='subtitle1' gutterBottom align='center' style={{fontWeight: 'bold'}}>
+                            Cadastre-se</Typography>
+                    </Box>
                 </Box>
             </Grid>
 
-            <Grid xs={6}>
-
+            <Grid xs={6} style={{
+                backgroundImage:`url(https://i.imgur.com/d5bMdDJ.jpg)`,
+                backgroundRepeat: 'no-repeat', width:'100vh', minHeight:'100vh', backgroundSize:'cover', 
+                backgroundPosition:'center'
+            }}>
+                
             </Grid>
         </Grid>
     );
